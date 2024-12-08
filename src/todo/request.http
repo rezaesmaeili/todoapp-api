@@ -10,7 +10,8 @@ Content-Type: application/json
 ### Get all todos
 GET http://localhost:3000/todos 
 
-## Complete a todo
+
+### Complete a todo
 PATCH http://localhost:3000/todos/1
 Content-Type: application/json
 
@@ -18,5 +19,5 @@ Content-Type: application/json
   "completed": true
 }
 
-## Delete a todo
+### Delete a todo
 DELETE http://localhost:3000/todos/1
